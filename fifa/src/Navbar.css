@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #16213e !important; /* Ensure deep blue background */
+  box-shadow: 0 4px 10px #16213e !important;
+}
+
+
+  
+  .navbar-brand {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    color: #ffffff; /* White for brand */
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff; /* Soft coral on hover */
+  }
+  
+  .nav-link {
+    margin-left: 20px; 
+    font-weight: bold; 
+    color: #ffffff; /* White for links */
+    transition: color 0.3s, background-color 0.3s;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff; /* Soft coral background on hover */
+    color: #ffffff; /* Keep text white on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; 
+    }
+    
+    .nav-link {
+      margin: 5px 0; 
+    }
+  }
+  

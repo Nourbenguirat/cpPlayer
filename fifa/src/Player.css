@@ -1,0 +1,48 @@
+.player-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #16213e; /* Match page background color */
+    color: #ffffff; /* White text for contrast */
+    margin: 10px;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3); /* Lighter shadow on hover */
+    background-color: #16213e; /* White background on hover */
+    color: #16213e; /* Change text color to match the card background */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0f4c75; /* Deep blue for title */
+  }
+  
+  .card-text {
+    font-size: 1rem; 
+    color: #0f4c75; /* Deep blue for text */
+  }
+  
+  .card-img-top {
+    border-bottom: 5px solid #0f4c75; /* Deep blue border for image */
+    filter: brightness(0.9); /* Slightly darker images */
+  }
+  
+  .card-body {
+    background-color: #16213e; /* Match page background color */
+  }
+  
+  strong {
+    color: #0f4c75; /* Deep blue for strong text */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .player-card {
+      width: 100%; 
+    }
+  }
+  

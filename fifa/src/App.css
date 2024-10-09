@@ -1,0 +1,66 @@
+body {
+  background-color: #16213e; /* Dark background color for the page */
+  color: #ffffff; /* White text for better visibility */
+  font-family: 'Roboto', sans-serif; /* Apply the imported font */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center; 
+  padding: 20px; /* Padding around the main content */
+}
+
+
+
+h1 {
+  font-size: 2.5rem; 
+  text-align: center;
+  color: #16213e; 
+  margin-bottom: 30px; 
+  text-shadow: 1px 1px 2px #95a4cd;
+}
+
+/* Styling for the player cards */
+.player-card {
+  transition: transform 0.3s, box-shadow 0.3s; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  background-color: #d5d8de; /* White background for cards */
+}
+
+.player-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #007bff; 
+}
+
+.card-text {
+  font-size: 1rem; 
+  color: #495057; 
+}
+
+.card-img-top {
+  border-bottom: 5px solid #007bff; 
+}
+
+.card-body {
+  background-color: #16213e; 
+}
+
+strong {
+  color: #007bff; 
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .player-card {
+    width: 100%; 
+  }
+}
